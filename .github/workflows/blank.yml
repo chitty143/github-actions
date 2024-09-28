@@ -23,10 +23,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd app   # Replace 'app' with the directory where your package.json is
+          cd .github/workflows   # Replace 'app' with the directory where your package.json is
           npm install
 
       - name: Run tests
         run: |
-          cd app   # Replace 'app' with the directory where your package.json is
+          cd .github/workflows   # Replace 'app' with the directory where your package.json is
           npm test
